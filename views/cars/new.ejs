@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Car</title>
+</head>
+<body>
+
+    <a href="/"> HomePage </a>    
+    <a href="/cars/new"> NEW CAR </a>   
+
+    <form action="/cars" method="POST">
+        <div>
+            <label for="name">Car Name </label>
+            <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+            <label for="price">Price</label>
+            <input type="text" name="price" id="price" required />            
+        </div>
+        <input type="submit" value="Add Car" />
+    </form>
+    <a href="/cars"> Back to List </a>  
+</body>
+</html>
